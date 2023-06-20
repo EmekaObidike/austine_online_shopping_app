@@ -312,6 +312,7 @@ ul{
 
 
 
+
 /*----------media query for less than 600 screen size----------*/
 
 @media only screen and (max-width: 600px){
@@ -321,4 +322,40 @@ ul{
     .col-2, .col-3, .col-4{
         flex-basis: 100%;
     }
+    
+}
+
+
+
+
+/*-------------------all products page-----------------------*/
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select{
+    border: 2px solid #611e9f;
+    padding: 5px;
+    border-radius: 5px;
+}
+select:focus{
+    outline: none;
+}
+.page-btn{
+    margin: 0 auto 80px;
+}
+.page-btn span{
+    display: inline-block;
+    border: 1px solid #611e9f;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+.page-btn span:hover{
+    background: #611e9f;
+    color: #fff;
 }
